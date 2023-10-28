@@ -26,7 +26,7 @@ export default async function handler(req, res) {
             sub: user.sub,
         },
     })
-    console.log("user: ", user);
+     console.log("user: ", user);
    
 
     res.status(200).json({ session: checkoutSession })
